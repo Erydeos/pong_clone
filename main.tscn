@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://klgglbwusrbi"]
+
+[ext_resource type="Script" uid="uid://cknwntmp6i6x6" path="res://main.gd" id="1_ig7tw"]
+[ext_resource type="PackedScene" uid="uid://d3bro2puheqx8" path="res://board.tscn" id="3_1bvp3"]
+[ext_resource type="PackedScene" uid="uid://bkdgmrklig8co" path="res://ball.tscn" id="3_h2yge"]
+[ext_resource type="PackedScene" uid="uid://l73rxgudkrs5" path="res://hud.tscn" id="3_lquwl"]
+[ext_resource type="PackedScene" uid="uid://ct5vsa0ej7dou" path="res://level_1.tscn" id="4_1bvp3"]
+
+[node name="Main" type="Node2D" unique_id=1549337910]
+script = ExtResource("1_ig7tw")
+level_scene = ExtResource("4_1bvp3")
+
+[node name="HUD" parent="." unique_id=481829703 instance=ExtResource("3_lquwl")]
+
+[node name="Ball" parent="." unique_id=1713653716 instance=ExtResource("3_h2yge")]
+flick_factor = 1.0
+
+[node name="board" parent="." unique_id=268388202 instance=ExtResource("3_1bvp3")]
+
+[connection signal="game_over" from="." to="HUD" method="_on_main_game_over"]
+[connection signal="start_game" from="HUD" to="." method="_on_hud_start_game"]
+[connection signal="game_over" from="Ball" to="." method="_on_ball_game_over"]

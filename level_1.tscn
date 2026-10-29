@@ -1,0 +1,230 @@
+[gd_scene format=3 uid="uid://ct5vsa0ej7dou"]
+
+[ext_resource type="PackedScene" uid="uid://wbs8j10jadna" path="res://target.tscn" id="1_3hls8"]
+
+[node name="Level1" type="Node2D" unique_id=1214067952]
+
+[node name="Target" parent="." unique_id=931991997 instance=ExtResource("1_3hls8")]
+position = Vector2(469, 11)
+
+[node name="Target2" parent="." unique_id=2023814131 instance=ExtResource("1_3hls8")]
+position = Vector2(534, 11)
+
+[node name="Target3" parent="." unique_id=1243102488 instance=ExtResource("1_3hls8")]
+position = Vector2(599, 11)
+
+[node name="Target4" parent="." unique_id=140275146 instance=ExtResource("1_3hls8")]
+position = Vector2(274, 11)
+
+[node name="Target5" parent="." unique_id=671435968 instance=ExtResource("1_3hls8")]
+position = Vector2(339, 11)
+
+[node name="Target6" parent="." unique_id=1222856978 instance=ExtResource("1_3hls8")]
+position = Vector2(404, 11)
+
+[node name="Target7" parent="." unique_id=346284194 instance=ExtResource("1_3hls8")]
+position = Vector2(664, 11)
+
+[node name="Target8" parent="." unique_id=316567826 instance=ExtResource("1_3hls8")]
+position = Vector2(729, 11)
+
+[node name="Target9" parent="." unique_id=1132035670 instance=ExtResource("1_3hls8")]
+position = Vector2(794, 11)
+
+[node name="Target10" parent="." unique_id=991452774 instance=ExtResource("1_3hls8")]
+position = Vector2(404, 28)
+
+[node name="Target11" parent="." unique_id=554470792 instance=ExtResource("1_3hls8")]
+position = Vector2(469, 28)
+
+[node name="Target12" parent="." unique_id=682285299 instance=ExtResource("1_3hls8")]
+position = Vector2(534, 28)
+
+[node name="Target13" parent="." unique_id=350798477 instance=ExtResource("1_3hls8")]
+position = Vector2(599, 28)
+
+[node name="Target14" parent="." unique_id=356526213 instance=ExtResource("1_3hls8")]
+position = Vector2(664, 28)
+
+[node name="Target15" parent="." unique_id=1820177505 instance=ExtResource("1_3hls8")]
+position = Vector2(729, 28)
+
+[node name="Target16" parent="." unique_id=964059856 instance=ExtResource("1_3hls8")]
+position = Vector2(469, 45)
+
+[node name="Target17" parent="." unique_id=1134019677 instance=ExtResource("1_3hls8")]
+position = Vector2(534, 45)
+
+[node name="Target18" parent="." unique_id=1487023824 instance=ExtResource("1_3hls8")]
+position = Vector2(599, 45)
+
+[node name="Target19" parent="." unique_id=969522427 instance=ExtResource("1_3hls8")]
+position = Vector2(664, 62)
+
+[node name="Target20" parent="." unique_id=599385519 instance=ExtResource("1_3hls8")]
+position = Vector2(729, 62)
+
+[node name="Target22" parent="." unique_id=1678880672 instance=ExtResource("1_3hls8")]
+position = Vector2(469, 62)
+
+[node name="Target23" parent="." unique_id=691155471 instance=ExtResource("1_3hls8")]
+position = Vector2(534, 62)
+
+[node name="Target24" parent="." unique_id=1309907427 instance=ExtResource("1_3hls8")]
+position = Vector2(339, 79)
+
+[node name="Target25" parent="." unique_id=1503215227 instance=ExtResource("1_3hls8")]
+position = Vector2(404, 79)
+
+[node name="Target21" parent="." unique_id=176136682 instance=ExtResource("1_3hls8")]
+position = Vector2(794, 62)
+
+[node name="Target26" parent="." unique_id=347572194 instance=ExtResource("1_3hls8")]
+position = Vector2(664, 98)
+
+[node name="Target27" parent="." unique_id=887806528 instance=ExtResource("1_3hls8")]
+position = Vector2(729, 98)
+
+[node name="Target28" parent="." unique_id=1040608461 instance=ExtResource("1_3hls8")]
+position = Vector2(794, 98)
+
+[node name="Target29" parent="." unique_id=1527429995 instance=ExtResource("1_3hls8")]
+position = Vector2(469, 98)
+
+[node name="Target30" parent="." unique_id=2073433454 instance=ExtResource("1_3hls8")]
+position = Vector2(534, 98)
+
+[node name="Target31" parent="." unique_id=392060862 instance=ExtResource("1_3hls8")]
+position = Vector2(599, 98)
+
+[node name="Target32" parent="." unique_id=1067352740 instance=ExtResource("1_3hls8")]
+position = Vector2(859, 98)
+
+[node name="Target33" parent="." unique_id=421605908 instance=ExtResource("1_3hls8")]
+position = Vector2(924, 98)
+
+[node name="Target34" parent="." unique_id=160847526 instance=ExtResource("1_3hls8")]
+position = Vector2(989, 98)
+
+[node name="Target35" parent="." unique_id=1048459162 instance=ExtResource("1_3hls8")]
+position = Vector2(599, 115)
+
+[node name="Target36" parent="." unique_id=1472892408 instance=ExtResource("1_3hls8")]
+position = Vector2(664, 115)
+
+[node name="Target37" parent="." unique_id=427754473 instance=ExtResource("1_3hls8")]
+position = Vector2(729, 115)
+
+[node name="Target38" parent="." unique_id=2063734067 instance=ExtResource("1_3hls8")]
+position = Vector2(794, 115)
+
+[node name="Target39" parent="." unique_id=184530615 instance=ExtResource("1_3hls8")]
+position = Vector2(859, 115)
+
+[node name="Target40" parent="." unique_id=1022695259 instance=ExtResource("1_3hls8")]
+position = Vector2(924, 115)
+
+[node name="Target41" parent="." unique_id=1080868325 instance=ExtResource("1_3hls8")]
+position = Vector2(664, 132)
+
+[node name="Target42" parent="." unique_id=976924498 instance=ExtResource("1_3hls8")]
+position = Vector2(729, 132)
+
+[node name="Target43" parent="." unique_id=176845382 instance=ExtResource("1_3hls8")]
+position = Vector2(794, 132)
+
+[node name="Target44" parent="." unique_id=720245890 instance=ExtResource("1_3hls8")]
+position = Vector2(859, 149)
+
+[node name="Target45" parent="." unique_id=1675117316 instance=ExtResource("1_3hls8")]
+position = Vector2(924, 149)
+
+[node name="Target46" parent="." unique_id=1285296809 instance=ExtResource("1_3hls8")]
+position = Vector2(664, 149)
+
+[node name="Target47" parent="." unique_id=1731396268 instance=ExtResource("1_3hls8")]
+position = Vector2(729, 149)
+
+[node name="Target48" parent="." unique_id=111376798 instance=ExtResource("1_3hls8")]
+position = Vector2(534, 166)
+
+[node name="Target49" parent="." unique_id=1805996976 instance=ExtResource("1_3hls8")]
+position = Vector2(599, 166)
+
+[node name="Target50" parent="." unique_id=720477188 instance=ExtResource("1_3hls8")]
+position = Vector2(989, 149)
+
+[node name="Target51" parent="." unique_id=550136353 instance=ExtResource("1_3hls8")]
+position = Vector2(274, 133)
+
+[node name="Target52" parent="." unique_id=1856373387 instance=ExtResource("1_3hls8")]
+position = Vector2(339, 133)
+
+[node name="Target53" parent="." unique_id=249517743 instance=ExtResource("1_3hls8")]
+position = Vector2(404, 133)
+
+[node name="Target54" parent="." unique_id=395056574 instance=ExtResource("1_3hls8")]
+position = Vector2(79, 133)
+
+[node name="Target55" parent="." unique_id=1685990444 instance=ExtResource("1_3hls8")]
+position = Vector2(144, 133)
+
+[node name="Target56" parent="." unique_id=1151820679 instance=ExtResource("1_3hls8")]
+position = Vector2(209, 133)
+
+[node name="Target57" parent="." unique_id=1656819888 instance=ExtResource("1_3hls8")]
+position = Vector2(469, 133)
+
+[node name="Target58" parent="." unique_id=123469287 instance=ExtResource("1_3hls8")]
+position = Vector2(534, 133)
+
+[node name="Target59" parent="." unique_id=975166554 instance=ExtResource("1_3hls8")]
+position = Vector2(599, 133)
+
+[node name="Target60" parent="." unique_id=1256144787 instance=ExtResource("1_3hls8")]
+position = Vector2(209, 150)
+
+[node name="Target61" parent="." unique_id=1511704574 instance=ExtResource("1_3hls8")]
+position = Vector2(274, 150)
+
+[node name="Target62" parent="." unique_id=526667957 instance=ExtResource("1_3hls8")]
+position = Vector2(339, 150)
+
+[node name="Target63" parent="." unique_id=2045877905 instance=ExtResource("1_3hls8")]
+position = Vector2(404, 150)
+
+[node name="Target64" parent="." unique_id=899564990 instance=ExtResource("1_3hls8")]
+position = Vector2(469, 150)
+
+[node name="Target65" parent="." unique_id=1338595301 instance=ExtResource("1_3hls8")]
+position = Vector2(534, 150)
+
+[node name="Target66" parent="." unique_id=1103368850 instance=ExtResource("1_3hls8")]
+position = Vector2(274, 167)
+
+[node name="Target67" parent="." unique_id=1964877165 instance=ExtResource("1_3hls8")]
+position = Vector2(339, 167)
+
+[node name="Target68" parent="." unique_id=719415766 instance=ExtResource("1_3hls8")]
+position = Vector2(404, 167)
+
+[node name="Target69" parent="." unique_id=1415776312 instance=ExtResource("1_3hls8")]
+position = Vector2(469, 184)
+
+[node name="Target70" parent="." unique_id=1597301997 instance=ExtResource("1_3hls8")]
+position = Vector2(534, 184)
+
+[node name="Target71" parent="." unique_id=2083202322 instance=ExtResource("1_3hls8")]
+position = Vector2(274, 184)
+
+[node name="Target72" parent="." unique_id=1191226130 instance=ExtResource("1_3hls8")]
+position = Vector2(339, 184)
+
+[node name="Target73" parent="." unique_id=1398186487 instance=ExtResource("1_3hls8")]
+position = Vector2(144, 201)
+
+[node name="Target74" parent="." unique_id=1600627946 instance=ExtResource("1_3hls8")]
+position = Vector2(209, 201)
+
+[node name="Target75" parent="." unique_id=1678535271 instance=ExtResource("1_3hls8")]
+position = Vector2(599, 184)

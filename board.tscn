@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://d3bro2puheqx8"]
+
+[ext_resource type="Texture2D" uid="uid://b70fex07vh6j7" path="res://pong-board.png" id="1_p0ybc"]
+[ext_resource type="Script" uid="uid://ny0fqyfdnlgd" path="res://board.gd" id="1_psm7c"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yprb2"]
+size = Vector2(64, 16)
+
+[node name="board" type="CharacterBody2D" unique_id=268388202]
+scale = Vector2(2, 1.5)
+script = ExtResource("1_psm7c")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1583784423]
+position = Vector2(0, 8)
+texture = ExtResource("1_p0ybc")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1919255780]
+shape = SubResource("RectangleShape2D_yprb2")
